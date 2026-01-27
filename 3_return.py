@@ -1,11 +1,9 @@
 # Return Practice #1
 # Create a function called power that takes two numeric values as arguments. It must return the number that results from solving a power, using the first number as the base, and the second as the exponent
 
-
-
-
-
-
+def power(x,y):
+    z = x ** y
+    return z
 
 # Return Practice #2
 # Create a function called usd_to_eur that takes a numeric value (an amount in US dollars) as its only parameter, and returns the equivalent amount in euros as a result. For the purposes of this example, we will take the conversion 1 USD = 0.90 EUR.
@@ -14,7 +12,10 @@
 
 # Hint: to perform the conversion, the function internally must multiply this value in dollars by 0.90 to obtain the equivalent amount in euros.
 
-
+amount = 50
+def usd_to_eur(amount):
+    euros = amount*0.90
+    return euros
 
 
 # Return Practice #3
